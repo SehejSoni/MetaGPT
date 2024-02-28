@@ -8,3 +8,5 @@
 llm:
   api_type: 'gemini'
   api_key: 'AIzaSyCEaBbvQRtytGMww5zD_oWQUV_9DyWI5so'
+  model: 'gemini-pro'
+  base_url="https://ai.google.dev/"
