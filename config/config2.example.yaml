@@ -1,8 +1,6 @@
 llm:
-  api_type: "openai"  # or azure / ollama / open_llm etc. Check LLMType for more options
-  base_url: "YOUR_BASE_URL"
-  api_key: "YOUR_API_KEY"
-  model: "gpt-4-turbo-preview"  # or gpt-3.5-turbo-1106 / gpt-4-1106-preview
+  api_type: 'gemini'
+  api_key: 'YOUR_API_KEY'
   repair_llm_output: true  # when the output is not a valid json, try to repair it
   proxy: "YOUR_PROXY"  # for LLM API requests
 
